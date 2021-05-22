@@ -25,7 +25,7 @@ export default function App() {
           2021 by Myrta Rüegger.
           {` Open-source Code: `}
           <a
-            href="https://github.com/Myrtaru/react-dictionary"
+            href="https://github.com/Myrtaru/react-dictionary-app"
             target="-blank"
             rel="noopener noreferrer"
           >
@@ -33,7 +33,7 @@ export default function App() {
           </a>
           {` Hosting: `}
           <a
-            href="https://keen-darwin-8eb240.netlify.app/"
+            href="https://pedantic-dubinsky-fffb14.netlify.app/"
             target="-blank"
             rel="noopener noreferrer"
           >
