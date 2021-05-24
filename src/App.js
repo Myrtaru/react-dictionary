@@ -1,4 +1,3 @@
-import React from "react";
 import Dictionary from "./Dictionary";
 import logo from "./logo.png";
 import "./App.css";
@@ -18,7 +17,7 @@ export default function App() {
           <hr />
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="sunset" />
         </main>
         <hr />
         <footer className="App-footer">
