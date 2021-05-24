@@ -1,12 +1,21 @@
 import React from "react";
+import "./Phonetic.css";
+
 
 export default function Phonetic (props) {
-return(
-<div className="Phonetic">
-<a href={props.phonetic.audio}
-target="-blank">Listen
-</a>
-{props.phonetic.text}
-</div>
+  function AudioPlay () {
+    let audio = new Audio(props.phonetic.audio);
+    audio.play();
+  }
+return (
+  <div className="Phonetic">
+    <img
+      src="../img/speaker.svg"
+      className="speaker"
+      alt="speaker"
+      onClick={AudioPlay}
+    />
+    <span className="text">{props.phonetic.text}</span>
+  </div>
 );
 }

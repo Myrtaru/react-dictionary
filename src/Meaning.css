@@ -2,11 +2,9 @@
 font-size: 1.2em;
 line-height: 1.5;
 font-weight: bold;
-text-transform: capitalize;
 }
 
-.Meaning.example {
+.example {
 color:rgb(32, 47, 117);
 font-style: italic;
-margin-top: 0.5em;
 }

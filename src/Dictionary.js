@@ -17,7 +17,7 @@ let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
 }
 
 function submitSearch(event) {
-  event.preventdefault();
+  event.preventDefault();
   search();
 }
 function Keywordentering (event){

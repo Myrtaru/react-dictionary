@@ -1,0 +1,14 @@
+.Phonetic {
+  margin-bottom: 0.5em;
+}
+
+.speaker{
+  height: 2em;
+  width: 2em;
+}
+ 
+.text {
+  color:rgb(32, 47, 117, 0.5);
+  font-weight: bold;
+  padding-left: 0.5em ;
+}
