@@ -4,8 +4,7 @@ import "./Examples.css";
 export default function Examples(props) {
   if (props.example) {
     return (
-      <div className="Examples">
-        <strong className="ExamplesTitle">Example</strong> "{props.example}"
+      <div className="Examples">e.g. "{props.example}"
       </div>
     );
   } else {
