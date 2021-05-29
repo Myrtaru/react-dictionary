@@ -16,14 +16,14 @@ export default function App() {
           <hr />
         </header>
         <main>
-          <Dictionary defaultKeyword="sunset" />
+          <Dictionary />
         </main>
         <hr />
         <footer className="App-footer">
           2021 by Myrta Rüegger.
           {` Open-source Code: `}
           <a
-            href="https://github.com/Myrtaru/react-dictionary-app"
+            href="https://github.com/Myrtaru/react-dictionary"
             target="-blank"
             rel="noopener noreferrer"
           >
@@ -31,7 +31,7 @@ export default function App() {
           </a>
           {` Hosting: `}
           <a
-            href="https://pedantic-dubinsky-fffb14.netlify.app/"
+            href="https://https://wonderful-goodall-35fb7a.netlify.app/"
             target="-blank"
             rel="noopener noreferrer"
           >
