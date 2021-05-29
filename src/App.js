@@ -28,7 +28,7 @@ export default function App() {
           </a>
           {` 2021 by Myrta Rüegger. Hosting: `}
           <a
-            href="https://https://wonderful-goodall-35fb7a.netlify.app/"
+            href="https://wonderful-goodall-35fb7a.netlify.app/"
             target="-blank"
             rel="noopener noreferrer"
           >
