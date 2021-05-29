@@ -5,7 +5,7 @@ import Photos from "./Photos.js";
 import "./Dictionary.css";
 
 export default function Dictionary(props) {
-  let [keyword, setKeyword] = useState(props.defaultKeyword);
+  let [keyword, setKeyword] = useState("");
   let [results, setResults] = useState(null);
   let [loaded, setLoaded] = useState(false);
   let [photos, setPhotos] = useState(null);
@@ -33,7 +33,7 @@ function submitSearch(event) {
   event.preventDefault();
   search();
 }
-function Keywordentering (event){
+function Keywordinput (event){
 setKeyword(event.target.value);
 }
 
@@ -51,7 +51,7 @@ if(loaded) {
               className="Search-form"
               type="search"
               placeholder="Enter a word"
-              onChange={Keywordentering}
+              onChange={Keywordinput}
               autoFocus="on"
             />
             <button type="submit" className="Button">

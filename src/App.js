@@ -20,16 +20,13 @@ export default function App() {
         </main>
         <hr />
         <footer className="App-footer">
-          2021 by Myrta Rüegger.
-          {` Open-source Code: `}
           <a
             href="https://github.com/Myrtaru/react-dictionary"
             target="-blank"
             rel="noopener noreferrer"
-          >
-            <u>GitHub,</u>
+          ><u>Open-source Code</u>
           </a>
-          {` Hosting: `}
+          {` 2021 by Myrta Rüegger. Hosting: `}
           <a
             href="https://https://wonderful-goodall-35fb7a.netlify.app/"
             target="-blank"
