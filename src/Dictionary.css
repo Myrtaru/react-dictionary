@@ -8,11 +8,11 @@ form {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 0.5em;
+  margin: 0.5em 0 0.5em 0;
 }
 .Dictionary button {
+  margin-bottom: 1.4em;
   min-width: 5.5em;
-  color: white;
   background: rgb(32, 47, 117);
   border-color: rgb(32, 47, 117);
   padding: 6px;
@@ -45,4 +45,10 @@ form {
 }
 .row{
 --bs-gutter-x: 0;
+}
+.keywords {
+margin-top: 0.5em;
+color: rgb(32, 47, 117);
+font-size:0.7em;
+font-style: italic;
 }

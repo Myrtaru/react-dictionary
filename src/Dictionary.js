@@ -38,15 +38,24 @@ export default function Dictionary() {
         <div className="row">
           <section>
             <form onSubmit={search}>
-              <input
-                className="Search-form"
-                type="search"
-                placeholder="Enter a word"
-                onChange={Keywordinput}
-                autoFocus="on"
-              />
+              <label>
+                <input
+                  className="Search-form"
+                  type="search"
+                  placeholder="Enter a word"
+                  onChange={Keywordinput}
+                  autoFocus="on"
+                />
+                <div className="keywords">
+                  suggested words: nature, smooth, coding, sound...
+                </div>
+              </label>
               <button type="submit" className="Button">
-                Search
+                <img
+                  src="../img/search.svg"
+                  className="searchImg"
+                  alt="magnifier"
+                />
               </button>
             </form>
           </section>
