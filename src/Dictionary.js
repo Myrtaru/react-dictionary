@@ -47,7 +47,7 @@ export default function Dictionary() {
                   autoFocus="on"
                 />
                 <div className="keywords">
-                  suggested words: nature, smooth, coding, sound...
+                  suggested words: sunrise, flower, city, ocean...
                 </div>
               </label>
               <button type="submit" className="Button">
