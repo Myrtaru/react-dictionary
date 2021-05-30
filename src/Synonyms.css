@@ -1,5 +1,6 @@
 ul {
   list-style-type: none;
+  margin-top: 0.6em;
   padding-left: 0;
   color:rgb(32, 47, 117);
   font-size: 1em;
@@ -8,9 +9,6 @@ ul {
 li{
   display: inline-block;
   padding: 0px 20px 0 0; 
-}
-.Synonyms {
-  margin: 0.8em 0;
 }
 .SynonymsTitle {
   color:rgb(32, 47, 117);
