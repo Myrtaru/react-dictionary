@@ -13,6 +13,7 @@ form {
 .Dictionary button {
   margin-bottom: 1.4em;
   min-width: 5.5em;
+  max-width: 18em;
   background: rgb(32, 47, 117);
   border-color: rgb(32, 47, 117);
   padding: 6px;
