@@ -5,7 +5,7 @@ export default function Synonyms(props) {
   if (props.synonyms) {
     return (
       <div className="row">
-        <div className="col-2">
+        <div className="col-sm-2">
           <div className="Synonyms">
             <strong className="SynonymsTitle">Synonyms </strong>
           </div>

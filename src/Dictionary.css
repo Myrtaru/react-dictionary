@@ -26,8 +26,8 @@ form {
   border-color: rgb(32, 47, 117);
   background:rgba(32, 47, 117, 0.5);
 }
-.Dictionary input{
-  width: 18em;
+.Dictionary input {
+  min-width: 18em;
   margin: 0 0.5em 0 0;
   background: rgba(255, 255, 255, 0.7);
   padding: 6px;
@@ -51,4 +51,14 @@ margin-top: 0.5em;
 color: rgb(32, 47, 117);
 font-size:0.7em;
 font-style: italic;
+}
+@media (max-width: 50em) {
+  .Dictionary input {
+     margin: 0 0.5em 0 0;
+  }
+
+  form {
+    flex-direction: column;
+    align-items: stretch;
+  }
 }
