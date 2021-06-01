@@ -44,7 +44,6 @@ export default function Dictionary() {
                   type="search"
                   placeholder="Enter a word"
                   onChange={Keywordinput}
-                  autoFocus="on"
                 />
                 <div className="keywords">
                   Example: sunrise, plant, ocean, city...
