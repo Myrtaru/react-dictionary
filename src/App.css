@@ -17,13 +17,15 @@ max-width: 50em;
   margin: 1em 0;
 }
 .App-logo {
-  max-width: 25em;
+  max-width: 20em;
   display: block;
   margin: 0 auto;
   border-radius: 6px;
   box-shadow: rgb(32, 47, 117) 0px 10px 10px;
   }
 .App-footer {
+  font-size: 0.9em;
+  font-weight: bold;
   text-align: center;
   margin:2em 0;
   }

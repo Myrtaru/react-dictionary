@@ -26,7 +26,7 @@ export default function App() {
             rel="noopener noreferrer"
           ><u>Open-source Code</u>
           </a>
-          {` 2021 by Myrta Rüegger. Hosting: `}
+          {` 2021 by Myrta Rüegger | Hosting: `}
           <a
             href="https://wonderful-goodall-35fb7a.netlify.app/"
             target="-blank"
